@@ -53,5 +53,13 @@ tcp        0      0 0.0.0.0:9009            0.0.0.0:*               LISTEN      
 
 
 
-
-
+WEB UI
+1. submarine 
+    u : admin
+    p : admin
+2. zeppelin <br>
+    u  = p       = Role <br>
+admin = password1, admin <br>
+user1 = password2, role1, role2 <br>
+user2 = password3, role3 <br>
+user3 = password4, role2 
