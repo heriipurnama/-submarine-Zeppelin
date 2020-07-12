@@ -3,7 +3,7 @@
 1. Pull images from docker<br>
     ``` docker pull heripurnama/apache_submarine-apache_zeppelin:tagname ```
 2. Running images <br>
-    ``` docker run -it -h submarine-dev --name mini-submarine-heriipurnama --net=bridge --privileged -P --expose 9009 hadoopsubmarine/mini-submarine:0.3.0-SNAPSHOT /bin/bash ```
+    ``` docker run -it -h submarine-dev --name mini-submarine-heriipurnama --net=bridge --privileged -P --expose 9009 heripurnama/apache_submarine-apache_zeppelin:tagname /bin/bash ```
 3. Goto io container <br>
     ``` docker container ls -a ``` <br>
     ```docker container start <id-container> ```<br>
